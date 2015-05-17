@@ -1,5 +1,5 @@
 module.exports = {
-  synthesize : function(name, value, fn1, fn2) {
+  synthesize : function(name, value) {
     var that = this;
     that[name] = {
       Get : function() {
